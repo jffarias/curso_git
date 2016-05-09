@@ -1,7 +1,64 @@
 h1 {
-	color: blue;
 }
 
-h2 {
-	color: gray;
+body{
+	background-color: #100000 ;
+}
+
+#github_back{
+	border-radius: 5px;
+	align:middle;
+	height: 500px;
+	width: 80%;
+}
+nav{
+	/*background-color: red;*/
+	text-align: center;
+}
+
+#s1{
+	display: inline-block;
+	/*background-color: yellow;*/
+	width: 100%;
+}
+#sFacebook, #sTwitter, #sGithub, #sGoogle, #sBlogger{
+	text-align: center;
+	display:block;
+	float: left;
+	margin-right: 3%;
+	margin-top: 10px;
+	height: 150px;
+	width: 30%;
+}
+
+#sFacebook{
+	/*background-color: blue;*/
+}
+
+#sTwitter{
+	/*background-color: red;*/
+}
+
+#sGithub{
+	/*background-color: orange;*/
+}
+
+#sGoogle{
+	/*background-color: green;*/
+}
+
+#sBlogger{
+	/*background-color: blue;*/
+}
+
+#imgf, #imgt, #imgg, #imggp, #imgb{
+	/*background-color: white;*/
+	margin: 0 auto;
+	height: 75px;
+	width: 75px;
+}
+
+p, h1, h2{
+	color: white;
+	font-family: helvetica;
 }
